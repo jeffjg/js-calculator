@@ -1,0 +1,50 @@
+body {
+	font-family: sans-serif;
+	background: #003334;
+	font-size: 100%;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.display {
+	width: 100%;
+	color: #FE6665;
+	height: 80px;
+	font-size: 4em;
+	text-align: center;
+}
+
+table {
+	padding: 10px;
+	background: #FFE3E2;
+	border-radius: 10px;
+	border: 5px solid #FE6665;
+	margin: 20px auto;
+}
+
+
+table tr td {
+	background: #006766;
+	padding: 11px 18px;
+	font-size: 1.2em;
+	border-radius: 10px;
+	color: #68BDBC;
+	text-align: center;
+}
+
+table tr td:hover {
+	cursor: pointer;
+	background: #222;
+}
+ 
+table tr td.clear {background: #EA5F5F;}
+table tr td.clear:hover {background: #DE4E4E;}
+table tr td.equals {background: #4C9DC3;}
+table tr td.equals:hover {background: #4395BB;}
+table tr td.operation {background: #666;}
+table tr td.operation:hover {background: #555;}
